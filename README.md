@@ -41,7 +41,7 @@ func main() {
 		SequenceBits: 12,
 	}
 
-	ss, err := snowflake.NewSnowflake(cfg)
+	ss, err := snowflake.NewSnowFlake(cfg)
 	if err != nil {
 		log.Fatalf("Failed to initialize Snowflake: %v", err)
 	}
